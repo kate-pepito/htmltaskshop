@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #e7ddda;
 }
 
 header {
@@ -11,6 +12,17 @@ header {
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+}
+
+header img {
+    height: 50px; 
+    width: auto; 
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
 }
 
 nav ul {
@@ -41,4 +53,30 @@ nav a {
     background-color: #f0f0f0;
     padding: 20px;
     box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    background-color: #db9292;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#products img {
+    height: 300px;
+    width: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .column {
+        width: 30%;
+    }
 }
