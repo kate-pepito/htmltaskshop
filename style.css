@@ -65,6 +65,11 @@ img {
     height: auto;
 }
 
+#promo img {
+    height: 50px; 
+    width: auto; 
+}
+
 #products img {
     height: 300px;
     width: 300px;
